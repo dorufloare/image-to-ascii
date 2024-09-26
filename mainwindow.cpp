@@ -99,6 +99,7 @@ void MainWindow::convertImage()
 void MainWindow::on_btnConvert_clicked()
 {
     convertImage();
+     ui->teAscii->setTextColor(Qt::black);
     ui->teAscii->setPlainText(convertedText);
 }
 
